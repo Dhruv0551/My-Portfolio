@@ -2,9 +2,17 @@ import React from "react";
 
 function Main() {
   return (
-    <>
-      <div></div>
-    </>
+    <div className="min-h-screen">
+      {/* Theme */}
+
+      {/* Background */}
+
+      {/* navbar */}
+
+      {/* hero */}
+
+      {/* footer */}
+    </div>
   );
 }
 
