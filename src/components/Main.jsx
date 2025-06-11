@@ -1,6 +1,8 @@
 import React from "react";
 import Theme from "./theme";
 import { Stars } from "lucide-react";
+import Starsbg from "./Starsbg";
+import Navbar from "./Navbar";
 
 function Main() {
   return (
@@ -8,9 +10,10 @@ function Main() {
       {/* Theme */}
       <Theme />
       {/* Background */}
-      <Stars />
+      <Starsbg />
 
       {/* navbar */}
+      <Navbar />
 
       {/* hero */}
 
