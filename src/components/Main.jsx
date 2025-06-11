@@ -1,5 +1,6 @@
 import React from "react";
 import Theme from "./theme";
+import { Stars } from "lucide-react";
 
 function Main() {
   return (
@@ -7,6 +8,7 @@ function Main() {
       {/* Theme */}
       <Theme />
       {/* Background */}
+      <Stars />
 
       {/* navbar */}
 
