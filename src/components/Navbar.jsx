@@ -47,7 +47,10 @@ const Navbar = () => {
               href={item.href}
               className="text-foreground/80 hover:text-primary transition-colors duration-300"
             >
-              {item.name}
+              <div className="font-semibold duration-150 hover:text-primary">
+                {" "}
+                {item.name}
+              </div>
             </a>
           ))}
         </div>
