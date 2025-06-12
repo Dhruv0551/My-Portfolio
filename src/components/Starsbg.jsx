@@ -46,7 +46,7 @@ function Starsbg() {
       newMeteors.push({
         id: i,
         size: Math.random() * 2 + 1,
-        x: Math.random() * 80,
+        x: Math.random() * 50,
         y: Math.random() * 80,
         delay: Math.random() * 15,
         animationDuration: Math.random() * 3 + 3,

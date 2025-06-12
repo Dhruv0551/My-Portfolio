@@ -150,7 +150,7 @@
 
 
 @utility star{
-  @apply absolute rounded-full bg-white;
+  @apply absolute rounded-full bg-purple-400;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
 }
 

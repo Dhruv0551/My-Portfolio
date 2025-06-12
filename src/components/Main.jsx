@@ -3,6 +3,7 @@ import Theme from "./theme";
 import { Stars } from "lucide-react";
 import Starsbg from "./Starsbg";
 import Navbar from "./Navbar";
+import Hero from "./Hero";
 
 function Main() {
   return (
@@ -16,6 +17,7 @@ function Main() {
       <Navbar />
 
       {/* hero */}
+      <Hero />
 
       {/* footer */}
     </div>
