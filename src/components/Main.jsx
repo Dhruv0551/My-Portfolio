@@ -4,6 +4,7 @@ import { Stars } from "lucide-react";
 import Starsbg from "./Starsbg";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
+import About from "./About";
 
 function Main() {
   return (
@@ -18,6 +19,7 @@ function Main() {
 
       {/* hero */}
       <Hero />
+      <About />
 
       {/* footer */}
     </div>
