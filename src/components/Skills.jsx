@@ -17,7 +17,6 @@ const skills = [
   { name: "Mysql", category: "backend" },
   { name: "Git/GitHub", category: "tools" },
   { name: "Vs Code", category: "tools" },
-  { name: "Git/GitHub", category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
