@@ -1,12 +1,13 @@
 import React from "react";
 import Theme from "./theme";
-import { Stars } from "lucide-react";
+import { Contact, Stars } from "lucide-react";
 import Starsbg from "./Starsbg";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import ContactMe from "./ContactMe";
 
 function Main() {
   return (
@@ -24,6 +25,7 @@ function Main() {
       <About />
       <Skills />
       <Projects />
+      <ContactMe />
 
       {/* footer */}
     </div>
