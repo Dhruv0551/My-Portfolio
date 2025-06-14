@@ -28,7 +28,7 @@ const Theme = () => {
     }
   };
 
-  return <></>;
+  return <>{/* <isDarkMode /> */}</>;
 };
 
 export default Theme;
