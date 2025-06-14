@@ -9,10 +9,16 @@ import {
 } from "lucide-react";
 import React from "react";
 import { cn } from "../lib/utils";
+import { useToast } from "../hooks/use-toast";
 
 function ContactMe() {
+  const { toast } = useToast();
+
   const handleSubmit = (e) => {
     e.preventDefault();
+    setTimeout(() => {
+      toast();
+    }, 1500);
     console.log("Form submitted");
   };
 
