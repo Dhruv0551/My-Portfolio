@@ -14,12 +14,18 @@ import { useToast } from "../hooks/use-toast";
 function ContactMe() {
   const { toast } = useToast();
 
+  const [isSubmitting, setIsSubmitting] = React.useState(false);
+
   const handleSubmit = (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
     setTimeout(() => {
-      toast();
+      toast({
+        title: "Message Sent!",
+        description: "Thank you for reaching out! I'll get back to you soon.",
+      });
+      setIsSubmitting(false);
     }, 1500);
-    console.log("Form submitted");
   };
 
   return (
@@ -90,7 +96,7 @@ function ContactMe() {
           </div>
           <div className="bg-card p-8 rounded-lg sahdow-xs">
             <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handleSubmit}>
               <div>
                 <label
                   htmlFor="name"
@@ -140,12 +146,13 @@ function ContactMe() {
               </div>
               <button
                 typeof="submit"
+                disabled={isSubmitting}
                 className={cn(
                   "cosmic-button w-full flex items-center justify-center gap-2",
                   ""
                 )}
               >
-                Send Message
+                {isSubmitting ? "Sending..." : "Send Message"}
                 <Send size={16} />
               </button>
             </form>

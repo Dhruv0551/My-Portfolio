@@ -28,21 +28,7 @@ const Theme = () => {
     }
   };
 
-  return (
-    <button
-      onClick={toggleTheme}
-      className={cn(
-        "fixed max-sm:hidden top-5 right-5 z-50 p-2 rounded-full transition-colors duration-300 cursor-pointer",
-        "focus:outlin-hidden"
-      )}
-    >
-      {isDarkMode ? (
-        <Moon className="h-6 w-6 text-blue-500" />
-      ) : (
-        <Sun className="h-6 w-6 text-yellow-300" />
-      )}
-    </button>
-  );
+  return <></>;
 };
 
 export default Theme;
