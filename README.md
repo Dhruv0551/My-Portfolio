@@ -1,12 +1,58 @@
-# React + Vite
+<h1 align="center">🌐 Dhruv's Developer Portfolio</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Deployed-Vercel-black?style=for-the-badge&logo=vercel"/>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  🚀 A sleek, modern, and fully responsive developer portfolio built using <strong>React</strong> and <strong>Vite</strong>. Showcases my skills, projects, and how to get in touch!
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔗 Live Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌍 [Check it out here](https://my-portfolio-snowy-omega-70.vercel.app)
+
+---
+
+## ✨ Features
+
+- ⚡ Lightning-fast performance (Vite-powered)
+- 🧩 Component-based architecture (React)
+- 🌙 Dark mode support
+- 📱 100% responsive on all devices
+- 📂 Dynamic skills & project listings
+- 🎨 Smooth animations & minimal design
+- 📨 Contact section to reach out instantly
+
+---
+
+## 🧰 Tech Stack
+
+| Frontend | Hosting | Styling           |
+| -------- | ------- | ----------------- |
+| React.js | Vercel  | CSS3              |
+| Vite     | GitHub  | Custom animations |
+
+---
+
+## 🚀 Getting Started
+
+To run the portfolio locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Dhruv0551/my-portfolio.git
+
+# 2. Navigate into the folder
+cd my-portfolio
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
+```
