@@ -24,7 +24,7 @@ function Main() {
       <Hero />
       <About />
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       <ContactMe />
 
       {/* footer */}
